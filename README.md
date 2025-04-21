@@ -71,8 +71,7 @@ class pattern
     }
     }
 ```
-
-![Graph representation for the code](./PlottedGraphs/java_program_to_print_the_following_pattern_on_the_console_12.html)
+[📄 View Rendered HTML Pattern](https://saad10codes.github.io/Java-Graph-Generator/java_program_to_print_the_following_pattern_on_the_console_12.html)
 
 
 [Class Diagram](./files/JavaGraphGeneratorClassDiagram.drawio.svg)
