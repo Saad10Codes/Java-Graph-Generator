@@ -2,7 +2,6 @@ import pickle
 import os
 import shutil
 from Map2Graphs import ShowGraphs
-from GraphGenerator import JavaParseGraph
 
 class GraphUsage:
     def __init__(self, graph_generator, graph_path=None):

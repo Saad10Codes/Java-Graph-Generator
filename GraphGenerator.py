@@ -11,11 +11,10 @@ from antlr4.FileStream import FileStream
 from CustomListener import CustomListener
 from JavaLexer import JavaLexer
 from JavaParser import JavaParser
-from JavaParserVisitor import JavaParserVisitor
 
-class JavaParseGraph(JavaParserVisitor):
+class GraphGenerator():
 
-    def __init__(self ,directories, output_path="GeneratedGraphs"):
+    def __init__(self ,*directories, output_path="GeneratedGraphs"):
         self.directories =directories
         self.locations=self.list_java_files(self.directories)
         self.graphs =dict()
@@ -24,7 +23,6 @@ class JavaParseGraph(JavaParserVisitor):
 
     def list_java_files(self ,directories):
         java_files=[]
-        keys=[]
         for dir_name in directories:
             directory=dir_name
             if zipfile.is_zipfile(dir_name):
