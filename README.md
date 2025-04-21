@@ -74,6 +74,6 @@ class pattern
 [📄 View Rendered HTML Pattern](https://saad10codes.github.io/Java-Graph-Generator/)
 
 
-[Class Diagram](./files/JavaGraphGeneratorClassDiagram.drawio.svg)
+![Class Diagram](./files/JavaGraphGeneratorClassDiagram.drawio.svg)
 
 
